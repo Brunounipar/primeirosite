@@ -86,6 +86,51 @@
             <br><br>
         </fieldset>
 
+        <select id="lista_suspensa" name="lista_suspensa">
+          <optgroup label="Teste de legenda no combobox">
+            <option value="Teste1">Teste 1</option>
+            <option value="Teste2">Teste 2</option>
+            <option value="Teste3">Teste 3</option>
+          </optgroup>
+          <optgroup label="Teste de legenda no combobox 2">
+            <option value="Teste4">Teste 4</option>
+            <option value="Teste5">Teste 5</option>
+            <option value="Teste6">Teste 6</option>
+          </optgroup>
+        </select><br><br>
+        <fieldset>
+            <legend>Desenvolvimento para Internet</legend>
+            <label><input type="checkbox" name="php" value="php"> PHP</label>
+            <br><br>
+            <label><input type="checkbox" name="html5" value="html5"> HTML5</label>
+            <br><br>
+            <label><input type="checkbox" name="css" value="css"> CSS</label>
+            <br><br>
+            <label><input type="checkbox" name="js" value="js"> JavaScript</label>
+            <br><br>
+        </fieldset>
+
+        <!--Datalist dos possiveis ganhadores da copa do mundo-->
+        <input type="text" name="pais" id="busca_datalist" list="paises">
+        <datalist id="paises">
+          <option value="Brasil">
+          <option value="Alemanha">
+          <option value="Itália">
+          <option value="França">
+          <option value="Argentina">
+        </datalist><br><br>
+
+        <audio controls>
+          <source src="audio/musica.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio><br><br>
+
+        <video controls width="320">
+          <source src="videos/videoteste.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video><br><br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T-nh8gpf6ZA?si=In1v-tMNSdZSTo_P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
